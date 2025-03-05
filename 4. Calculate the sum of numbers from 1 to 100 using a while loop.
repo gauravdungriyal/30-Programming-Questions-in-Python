@@ -1,0 +1,7 @@
+i=1
+totalSum=0
+while i<=100:
+    totalSum+=i
+    i+=1
+
+print(totalSum)
