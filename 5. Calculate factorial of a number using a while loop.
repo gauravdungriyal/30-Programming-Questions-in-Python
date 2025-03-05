@@ -1,0 +1,8 @@
+i=2
+res=1
+print("Enter a number")
+n=int(input(""))
+while i<=n:
+    res*=i
+    i+=1
+print(res)
