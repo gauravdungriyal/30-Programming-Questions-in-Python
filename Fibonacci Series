@@ -1,0 +1,12 @@
+f=0
+s=1
+n=10
+i=0
+print(f,end=" ")
+print(s,end=" ")
+while i<n-2:
+    res=f+s
+    print(res,end=" ")
+    f=s
+    s=res
+    i+=1
