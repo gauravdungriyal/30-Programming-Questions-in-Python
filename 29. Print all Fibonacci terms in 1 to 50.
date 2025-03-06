@@ -1,0 +1,9 @@
+f=0
+s=1
+print(f,end=" ")
+print(s,end=" ")
+for i in range(1,49):
+    res=f+s
+    print(res,end=" ")
+    f=s
+    s=res
