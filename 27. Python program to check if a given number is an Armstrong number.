@@ -1,0 +1,14 @@
+import math
+print("Enter a number:")
+n=int(input(""))
+digits=int(math.log(n,10))+1
+total=0
+temp=n
+while(temp>0):
+    last=temp%10
+    total+=last**digits
+    temp=temp//10
+if total==n:
+    print(f"{n} is an Armstrong Number")
+else:
+    print(f"{n} is not an Armstrong Number")
