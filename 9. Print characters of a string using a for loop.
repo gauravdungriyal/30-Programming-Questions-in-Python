@@ -1,0 +1,5 @@
+print("Enter a string:")
+a=input("")
+res=0
+for i in a:
+    print(i)
