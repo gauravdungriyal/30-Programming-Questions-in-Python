@@ -1,0 +1,17 @@
+import math
+def palindrome(n):
+    digits=int(math.log(n,10))+1
+    total=0
+    temp=n
+    while(temp>0):
+        last=temp%10
+        total+=last**digits
+        temp=temp//10
+    if total==n:
+        return True
+    else:
+        return False
+        
+for i in range(1,501):
+    if palindrome(i):
+        print(i,end=" ")  
