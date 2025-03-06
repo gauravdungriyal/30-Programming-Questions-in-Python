@@ -1,0 +1,6 @@
+print("Enter a number:")
+n=int(input(""))
+res=1
+for i in range(2,n+1):
+    res*=i
+print(f"The factoril of {n} is {res}")
